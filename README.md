@@ -1,14 +1,19 @@
 # Flutter Installer
 
+[*Leer esta guía en Español*](README.es_ES.md)
+
 This is a PowerShell script developed to make the installation of Flutter easier
 on Windows devices.
 
 ## User's Guide
 
-To use this tool, you have to run PowerShell as an Administrator. Once there,
-you have to run the following command:
+To use this tool, you have to [download it](FlutterInstaller.ps1) and to run
+PowerShell as an Administrator. Once there, you have to run the following
+command:
 
-```Set-ExecutionPolicy Bypass -Scope Process -Force```
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+```
 
 Then, you have to run the tool, going to the directory where you downloaded it:
 
@@ -25,8 +30,7 @@ the end (it will take a while), you should see something like this:
 
 This means that you successfully installed Flutter! To develop for Android, you
 will need to install the [Android toolchain](https://docs.flutter.dev/get-started/install/windows#android-setup).
-For the web, you just need to
-install [Google Chrome](https://www.google.com/intl/es-419/chrome/).
+For the web, you just need to install [Google Chrome](https://www.google.com/intl/es-419/chrome/).
 To develop for Windows, you will need [Visual Studio](https://docs.flutter.dev/get-started/install/windows#windows-setup).
 
 ## More Information
